@@ -1,0 +1,78 @@
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2020/04/16/11/13/background-5050213_1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.1em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background-color: #fcf9ea; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 20px;
+  height: 35px;
+  padding: 0 15px;
+}
+
+form input:focus {
+  outline: 1px solid rgb(142, 0, 194);
+}
+
+
+form p {
+  font-size: 0.9rem;
+  font-style:italic
+}
+
+.div-h1{
+  text-align: center;
+}
+
+form button {
+  border: none;
+  background: rgb(47, 139, 192);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  transition: 0.2s;
+  background: rgb(116, 157, 233);
+}
+
+.error-text {
+  font-size: 13px;
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.label-senha{
+  margin-bottom: 10px;
+}
